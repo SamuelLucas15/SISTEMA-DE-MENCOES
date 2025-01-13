@@ -58,4 +58,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Se não for uma requisição POST
     header("Location: ../../views/cadastro.php");
 }
-?>

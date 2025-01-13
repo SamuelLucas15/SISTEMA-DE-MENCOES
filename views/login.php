@@ -9,14 +9,14 @@
 <body>
     <div class="login-container">
         <div class="login-box">
-            <img src="../public/imgs/bonecomediotec.png" alt="Imagem de Perfil" class="profile-image">
-            <h1>Login</h1>
-            <form action="../src/controller/controller_login.php" method="post">
+            <img src="../public/imgs/bonecomediotec.png" alt="Logo do MedioTec" class="boneco-medio">
+            <h1>LOGIN</h1>
+            <form action="../src/controller/controller_login.php" method="POST">
                 <label for="matricula">Matrícula</label>
-                <input placeholder="Inserir Matrícula" type="text" id="matricula" name="matricula" required>
+                <input placeholder="Insira sua Matrícula" type="text" id="matricula" name="matricula" required>
                 
-                <label for="cpf">CPF</label>
-                <input placeholder="Digite seu CPF" type="password" id="cpf" name="cpf" required>
+                <label for="senha">Senha</label>
+                <input placeholder="Insira sua senha" type="password" id="senha" name="senha" required>
 
                 <button type="submit">Entrar</button>
                 <p><a href="#">Esqueceu a senha?</a></p>
