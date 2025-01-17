@@ -8,30 +8,24 @@
 }
 
 body {
-   background: linear-gradient(to bottom, #6a27ab, #1e90ff);
-   height: 100vh;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   position: relative;
+   background-color: #3730a3;
+   height: 100dvh;
    overflow: hidden;
+   display: grid;
 }
 
-.login-container {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   position: relative;
-   width: 100%;
-}
 
-.login-box {
+.conteudo-box {
    background-color: #fff;
+   width: 20%;
    padding: 3rem;
    border-radius: 10px;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-   width: 100%;
-   max-width: 400px;
+   display: flex;
+   flex-direction: column;
+   align-self: center;
+   justify-self: center;
+   align-items: center;
 }
 
 .boneco-medio {
@@ -76,7 +70,7 @@ input:focus {
 }
 
 button {
-   background-color: #6a27ab;
+   background-color: #6d28d9;
    color: #fff;
    padding: 1rem 0;
    width: 90%;
@@ -89,4 +83,10 @@ button {
 
 button:hover {
    background-color: #005cbf;
+}
+
+@media screen and (max-width:800px) {
+   .login-box{
+      width: 85%;
+   }
 }

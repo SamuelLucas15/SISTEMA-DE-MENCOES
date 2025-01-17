@@ -1,7 +1,7 @@
 {
     "autoload": {
-        "psr-4": {
-            "Senac\\Maratona\\": "src/"
-        }
+      "psr-4": {
+        "App\\": "src/"
+      }
     }
-}
+  }  

@@ -1,0 +1,12 @@
+# Ativar o mecanismo de reescrita
+RewriteEngine On
+
+# Evitar loops infinitos ao acessar diretamente a pasta public
+RewriteCond %{REQUEST_URI} !^/public/
+
+# Garantir que não redirecione arquivos ou diretórios reais
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redirecionar tudo para a pasta public
+RewriteRule ^(.*)$ /public/$1 [L]

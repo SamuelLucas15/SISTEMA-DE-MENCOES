@@ -1,5 +1,20 @@
 @import url('layout_cad_log.css');
 
+.caixa-erro {
+   margin-top: 3%;
+   padding: 2%;
+   width: 90%;
+   background-color: #dc262693;
+   border: 1px solid #da1717;
+   border-radius: 5px;
+   text-align: center;
+}
+
+.error {
+   color: #d81818;
+   font-weight: bold;
+}
+
 a {
    display: block;
    margin-top: 20px;
