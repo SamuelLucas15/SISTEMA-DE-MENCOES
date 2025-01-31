@@ -9,8 +9,8 @@
 <body>  
     <div class="login-box">
         <img src="../public/imgs/bonecomediotec.png" alt="Logo do MedioTec">
-        <a href="cadastro.php" class="botao">CADASTRAR</a>
-        <a href="login.php" class="botao">ENTRAR</a>
+        <a href="/cadastro" class="botao">CADASTRAR</a>
+        <a href="/login" class="botao">ENTRAR</a>
     </div>
 </body>
 </html>

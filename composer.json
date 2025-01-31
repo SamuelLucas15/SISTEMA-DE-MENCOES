@@ -1,7 +1,10 @@
 {
+    "name": "senac/sistema-de-mencoes",
     "autoload": {
-      "psr-4": {
-        "App\\": "src/"
-      }
-    }
-  }  
+        "psr-4": {
+            "Senac\\SistemaDeMencoes\\": "src/",
+            "Senac\\SistemaDeMencoes\\Config\\": "Config/"
+        }
+    },
+    "require": {}
+}

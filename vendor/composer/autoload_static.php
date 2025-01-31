@@ -9,12 +9,17 @@ class ComposerStaticInit79cc7100d4b29683fe8616e0fbb95ad0
     public static $prefixLengthsPsr4 = array (
         'S' => 
         array (
-            'Senac\\Maratona\\' => 15,
+            'Senac\\SistemaDeMencoes\\Config\\' => 30,
+            'Senac\\SistemaDeMencoes\\' => 23,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Senac\\Maratona\\' => 
+        'Senac\\SistemaDeMencoes\\Config\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Config',
+        ),
+        'Senac\\SistemaDeMencoes\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

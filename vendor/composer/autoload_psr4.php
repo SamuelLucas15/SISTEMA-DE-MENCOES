@@ -6,5 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Senac\\Maratona\\' => array($baseDir . '/src'),
+    'Senac\\SistemaDeMencoes\\Config\\' => array($baseDir . '/Config'),
+    'Senac\\SistemaDeMencoes\\' => array($baseDir . '/src'),
 );
